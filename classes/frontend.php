@@ -16,7 +16,7 @@
 
 /**
  * @package    availability_useragent
- * @copyright  2013-2024 Université de Lausanne
+ * @copyright  2024 Université de Lausanne
  * @author     Nicolas Dunand <Nicolas.Dunand@unil.ch>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  **/
