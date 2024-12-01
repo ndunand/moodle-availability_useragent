@@ -71,7 +71,7 @@ M.availability_useragent.form.getNode = function(json) {
     html = '';
     html += '<span class="availability-group"><label for="' + id + '"><span class="p-r-1">' +
         M.util.get_string('title', 'availability_useragent') + ' </span></label>';
-    html += '<input type="text" placeholder="" name="useragentes" id="' + id + '">';
+    html += '<input type="text" placeholder="^.*Mozilla.*(Firefox|Chrome).*$" name="useragentes" id="' + id + '">';
     node = Y.Node.create('<span class="form-inline">' + html + '</span>');
 
     // Set initial values, if specified.
