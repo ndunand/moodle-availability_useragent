@@ -26,8 +26,6 @@ $string['pluginname'] = 'User Agent';
 $string['title'] = 'User Agent';
 $string['description'] = 'Restrict access by browser User-Agent';
 $string['require_condition'] = 'Matching browser type';
-
-// TODO remove next two lines for production
 $string['require_condition_debug_ok'] = 'Matching User-Agent. (Your User-Agent:{$a})';
 $string['require_condition_debug_ko'] = 'Not matching User-Agent. (Your User-Agent:{$a})';
 

@@ -115,7 +115,6 @@ class condition extends \core_availability\condition {
      * @throws \coding_exception
      */
     public function get_description($full, $not, info $info): string {
-        // TODO remove all but last line for production
         global $USER;
         if (has_capability('mod/assign:grade', $info->get_context())) {
             if ($this->is_available($not, $info, false, $USER->id)) {
